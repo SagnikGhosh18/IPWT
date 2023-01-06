@@ -1,0 +1,14 @@
+body{
+    background-color: #BAF1A1;
+}
+
+table, th,td{
+    border: 1px solid;
+    text-align: center;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #E8F9E9;
+    padding: 20px;
+}

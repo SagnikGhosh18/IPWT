@@ -1,0 +1,30 @@
+/* h5{
+  margin: 0;
+}
+.image1 {
+  float: left;
+  width: auto;
+} */
+body{
+  background-color: #BAF1A1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+.container {
+    border-radius: 10px;
+    background-color: #E8F9E9;
+    padding: 20px;
+}
+img{
+  display: block;
+  margin: auto;
+}
+div{
+  text-align: center;
+}
+
+ul{
+  list-style-position: inside;
+  
+}

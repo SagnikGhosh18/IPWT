@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+    
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+            <label for="">E-Mail Address:</label>
+            <input type="email" id="email" name="email" placeholder="E-Mail Address.."><br>
+
+            <label for="">Phone No.:</label>
+            <input type="text" name="" id="" placeholder="Phone No.."><br>
+
+            <label for="">Date of Birth:</label>
+            <input type="date">
+
+            <div style="padding:12px">
+                <label for="">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="Male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="Female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="Other">Other</label><br>
+            </div>
+    
+            <label for="country">Country residing in:</label>
+            <select id="country" name="country">
+                <option value="India">India</option>
+                <option value="usa">USA</option>
+                <option value="australia">United Kingdom</option>
+            </select>
+
+            <label for="">Address:</label>
+            <input type="text" name="" id="" placeholder="Address..">
+    
+            <label for="subject">Tell us something about yourself:</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+            <div style="padding: 12px;">
+                <label for="">Select subscription preferences:</label><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Receive monthly post at registered address</label><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Receive EMail about blog posts only</label><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Receive both</label><br>
+            </div>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+    
+        </form>
+    </div>
+</body>
+</html>
