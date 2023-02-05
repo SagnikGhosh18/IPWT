@@ -1,0 +1,59 @@
+body{
+  background-color: #B5F1CC;
+}
+
+span{
+  color: red;
+}
+h5{
+  text-decoration: underline;
+}
+
+fieldset {
+  background-color: #E5FDD1;
+}
+
+input {
+  margin: 5px;
+}
+
+textarea{
+  margin: 5px;
+}
+
+legend {
+  background-color: #B5F1CC;
+  color: black;
+  padding: 5px 10px;
+  border-style: solid;
+}
+label{
+  margin-right: 20px;
+}
+button{
+  margin-right: 20px;
+  color: black;
+  background-color: #BFDB38;
+}
+select{
+  margin:5px;
+}
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+
+
+.row {
+  display: flex;
+
+}
+
+.column {
+  flex: 50%;
+  padding: 20px;
+}

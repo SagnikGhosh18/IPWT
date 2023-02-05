@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 2_1</title>
+    <link rel="stylesheet" href="style1.css">
+
+
+  </head>
+  <body>
+    <form class="" action="" method="post" onsubmit="verify()">
+      <fieldset>
+        <legend>Workshop registration:</legend>
+
+        <div class="row">
+
+          <div class="column">
+            <table>
+              <tr>
+                <td><label for="">First Name:<span>*</span></label></td>
+                <td><input type="text" name="" value="" id="fname" ></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Last Name:<span>*</span></label></td>
+                <td><input type="text" name="" value="" id="lname"></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Company/Institution:<span>*</span></label></td>
+                <td><input type="text" name="" value="" id="Company"></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Address:<span>*</span></label></td>
+                <td><textarea name="name" rows="8" cols="80" id="Address"></textarea></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Country:</label></td>
+                <td><input type="text" name="" value="" id="Country"></td>
+              </tr>
+
+              <tr>
+                <td><label for="">State/Province:</label></td>
+                <td>
+                  <select name="" id="State">
+                    <option value="default">Select</option>
+                    <option value="WestBengal">West Bengal</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="TamilNadu">Tamil Nadu</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td><label for="">City:</label></td>
+                <td>
+                  <select name="" id="City">
+                    <option value="default">Select</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Chennai">Chennai</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td><label for="">Email:<span>*</span></label></td>
+                <td><input type="text" id="Email"></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Phone Number:<span>*</span></label></td>
+                <td><input type="text" id="Number"></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="column">
+            <table>
+
+              <tr>
+                <td><h5>Lunch</h5></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Meal preference</label></td>
+                <td>
+                  <select name="" id="Meal">
+                    <option value="default">Select</option>
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Non-Vegetarian">Non-Vegetarian</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td><h5>Payment details</h5></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Payment Mode</label></td>
+                <td>
+                  <input type="checkbox" name="" value="Cash" id="payment1">
+                  <label for="">Cash</label>
+                  <br>
+
+                  <input type="checkbox" name="" value="Cheque" id="payment2">
+                  <label for="">Cheque</label>
+                  <br>
+
+                  <input type="checkbox" name="" value="DD" id="payment3">
+                  <label for="">Demand Draft</label>
+                  <br>
+
+                </td>
+              </tr>
+
+              <tr>
+                <td><label for="">DD/Cheque No.</label></td>
+                <td><input type="text" id="paymentnumber"></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Drawn on (Bank Name)</label></td>
+                <td><input type="text" id="bankname"></td>
+              </tr>
+
+              <tr>
+                <td><label for="">Payable at</label></td>
+                <td><input type="text" id="payableat"></td>
+              </tr>
+            </table>
+
+          </div>
+
+        </div>
+        <div class="flex-parent jc-center">
+          <button type="submit" class="green margin-right">Submit</button>
+          <button type="reset" class="magenta">Reset</button>
+        </div>
+
+        <div class="">
+          <h5 id="error" style="color:red"></h5>
+        </div>
+      </fieldset>
+
+    </form>
+
+
+    <script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
