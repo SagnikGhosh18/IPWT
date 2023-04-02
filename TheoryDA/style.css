@@ -1,0 +1,17 @@
+body{
+    background-color: #F3DEBA;
+    margin: 0px;
+}
+#bank{
+    background-color: #ABC4AA;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+#button{
+    background-color: #ABC4AA;
+    color: black;
+}

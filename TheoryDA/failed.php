@@ -3,12 +3,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div><div id="bank"><h1>ABC BANK LOAN MANAGEMENT</h1></div></div>
-    <div><a href="viewloanbyid.php" target="_blanks">
-        <h3>View Loan By ID</h3></a></div>
+<div id="bank"><h1>ABC BANK LOAN MANAGEMENT</h1></div>
+<div>
+<p>Details can't be updated, please contact Admin. </p>
+</div>
 </body>
 </html>
